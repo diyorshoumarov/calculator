@@ -1,0 +1,39 @@
+table {
+    background-color: #c0c0c0;
+}
+
+#result {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: right;
+    width: 173px;
+    height: 30px;
+    padding-top: 20px;
+    padding-right: 5px; 
+}
+
+td {
+    border: none;
+    font-family: sans-serif;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+}
+
+.operator {
+    background-color: lightsalmon;
+    width: 40px;
+    height: 30px;
+}
+
+.number {
+    border: none;
+    width: 40px;
+    height: 30px;
+}
+
+#answer {
+    width: 82px;
+    height: 30px;
+}

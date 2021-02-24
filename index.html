@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>Calculator</title>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4" id="result">0</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td> <button type="button" class="operator" id="clear"  onclick="clean()">C</button> </td>
+                    <td> <button type="button" class="operator" id="plus_minus" onclick="plus_minus()">-/+</button> </td>
+                    <td> <button type="button" class="operator" id="percent" onclick="percent()">%</button> </td>
+                    <td> <button type="button" class="operator" id="divide" onclick="divide()">/</button> </td>
+                </tr>
+
+                <tr>
+                    <td> <button type="button" class="number" id="seven" onclick="seven()">7</button> </td>
+                    <td> <button type="button" class="number" id="eight" onclick="eight()">8</button> </td>
+                    <td> <button type="button" class="number" id="nine" onclick="nine()">9</button> </td>
+                    <td> <button type="button" class="operator" id="multiple" onclick="multiple()">X</button> </td>
+                </tr>
+
+                <tr>
+                    <td> <button type="button" class="number" id="four" onclick="four()">4</button> </td>
+                    <td> <button type="button" class="number" id="five" onclick="five()">5</button> </td>
+                    <td> <button type="button" class="number" id="six" onclick="six()">6</button> </td>
+                    <td> <button type="button" class="operator" id="subtract" onclick="subtract()">-</button> </td>
+                </tr>
+
+                <tr>
+                    <td> <button type="button" class="number" id="one" onclick="one()">1</button> </td>
+                    <td> <button type="button" class="number" id="two" onclick="two()">2</button> </td>
+                    <td> <button type="button" class="number" id="three" onclick="three()">3</button> </td>
+                    <td> <button type="button" class="operator" id="add" onclick="add()">+</button> </td>
+                </tr>
+
+                <tr>
+                    <td> <button type="button" class="number" id="zero" onclick="zero()">0</button> </td>
+                    <td> <button type="button" class="number" id="dot" onclick="dot()">.</button> </td>
+                    <td colspan="2"> <button type="button" class="operator" id="answer" onclick="showAnswer()">=</button> </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <script src="app.js"></script>
+    </body>
+</html>
